@@ -1,5 +1,5 @@
 body {
-  background-color: #F5F1EB;
+  background-color: #F2E9D9;
   font-family: Georgia, serif;
   color: #2B2B2B;
   max-width: 700px;
@@ -7,9 +7,6 @@ body {
   padding: 0 20px;
   line-height: 1.6;
   text-align: center;
-  nav a {
-  margin: 0 12px;
-}
 }
 
 h1 {
@@ -18,10 +15,18 @@ h1 {
 }
 
 a {
-  color: #A6402B;
-  text-decoration: none;
+  color: #2B2B2B;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #A6402B;
+}
+
+nav a {
+  margin: 0 12px;
+}
+
+.home {
+  font-family: "Times New Roman", Times, serif;
 }
